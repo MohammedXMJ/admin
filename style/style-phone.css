@@ -1,0 +1,99 @@
+:root{
+    --font-famyil-arabic: 'Cairo', sans-serif;
+    --btn-color: #00579c;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: auto;
+    height: auto;
+}
+.page {
+    position:absolute;
+}
+section.page img{
+    opacity: 0.4;
+    margin-top: 50%;
+    width: 380px;
+}
+.all{
+    margin-top: 20px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#username{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    font-family: var(--font-famyil-arabic);
+    font-size: 30px;
+}
+.date{
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 40px;
+    margin-top: 20px;
+}
+.textlabel{
+    font-family:  var(--font-famyil-arabic);
+    font-size: 16px;
+}
+.daytext{
+    display: flex;
+    flex-direction: row-reverse;
+    font-family:  var(--font-famyil-arabic);
+    font-size: 16px;
+}
+div.chooseday label {
+    margin-top: 20px;
+    font-family:  var(--font-famyil-arabic);
+    font-size: 16px;
+}
+.time{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 85px;
+}
+.textarea{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 85px;
+}
+.textarea label{
+    margin-top: 20px;
+    font-family:  var(--font-famyil-arabic);
+    font-size: 16px;
+}
+.file{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 85px;
+}
+section.table{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    position: relative;
+}
+table {
+    font-family: var(--font-famyil-arabic);
+    border-collapse: collapse;
+    width: 80%;
+  }
+  
+td, th {
+    border: 1px solid black;
+    text-align: right;
+    font-family: var(--font-famyil-arabic);
+    padding: 15px;
+}
